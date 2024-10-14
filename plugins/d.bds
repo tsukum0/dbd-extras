@@ -4,7 +4,7 @@ $setVar[d;
 $$c[]if[$$c[]var[in$var[z]==d$var[z]
 # Dice Plugin
    $$c[]if[$$c[]var[2$var[z]==$var[z]
-🎲: {$$var[z]random[1$var[y]6$var[z]}
+🎲: {$$c[]random[1$var[y]6$var[z]}
       $$c[]else
          $$c[]if[$$c[]isNumber[$$c[]var[2$var[z]$var[z]==true$var[z]
          $$c[]onlyIf[$$c[]var[2$var[z]>1$var[y]$var[z]
