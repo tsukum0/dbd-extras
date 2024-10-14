@@ -1,11 +1,11 @@
-$c[+ installer here]
+$var[z;\]]
+$var[y;\\\\;]
 $onlyIf[$varExists[d];Create `d` variable in the app!]
 
 $setVar[d;
-$httpGet[<dice_repo>]
-$setVar[installer;$httpResult]
+$$c[]httpGet[https://raw.githubusercontent.com/tsukum0/dbd-extras/refs/heads/main/plugins/d.bds$var[z]
+$$c[]setVar[installer$var[y]$httpResult$var[z]
 ]
 
 $setVar[installer;]
-1/3
 use `$if[$varExists[prefix]]$getVar[prefix]$endifd`!
