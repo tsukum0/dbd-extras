@@ -15,6 +15,6 @@ $nomention
 $c[plugin loader]
 $if[$var[in]!=]
   $if[$varExists[$var[in]]==true]
-     $eval[$getVar[$var[in]]]
+     $getVar[$var[in]]
   $endif
 $endif
