@@ -1,6 +1,6 @@
 $var[z;\]]
 $var[y;\\\\;]
-$onlyIf[$varExists[d];Create `d` variable in the app!]
+$onlyIf[$varExists[d]==true;Create `d` variable in the app!]
 
 $setVar[d;
 $$c[]httpGet[https://raw.githubusercontent.com/tsukum0/dbd-extras/refs/heads/main/plugins/d.bds$var[z]
