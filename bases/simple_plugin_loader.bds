@@ -1,0 +1,19 @@
+$c[Visual Studio Code
+
+Name: ""
+Command: ""
+Description: ""
+
+] 
+
+$c[Variables to easy commands]
+$var[in;$toLowercase[$message[1]]]
+$var[2;$toLowercase[$message[2]]]
+
+$nomention
+
+$c[install]
+$if[$var[in]==install]
+    $if[]
+    $endif
+$endif
