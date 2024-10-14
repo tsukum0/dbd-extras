@@ -13,6 +13,8 @@ $var[2;$toLowercase[$message[2]]]
 $nomention
 
 $c[plugin loader]
-$if[$varExists[$var[in]]==true]
-  $eval[$getVar[var[in]]]
+$if[$var[in]!=]
+  $if[$varExists[$var[in]]==true]
+     $eval[$getVar[var[in]]]
+  $endif
 $endif
