@@ -12,6 +12,7 @@ $$c[]if[$$c[]var[in$var[z]==d$var[z]
          $$c[]endif
    $$c[]endif
 $$c[]endif
+use `d` again! XD
 ]
 $setVar[installer;]
 dice installed!
